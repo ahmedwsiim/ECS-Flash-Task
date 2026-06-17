@@ -28,4 +28,5 @@ jobs:
       - name: Deploy Service using Copilot
         working-directory: ./my-fargate-app
         run: |
+          copilot env deploy --name test
           copilot svc deploy --name my-fargate-app --env test
