@@ -6,11 +6,11 @@
   ],
   "cpu": "256",
   "memory": "512",
-  "executionRoleArn": "arn:aws:iam::YOUR_ACCOUNT_ID:role/ecsTaskExecutionRole",
+  "executionRoleArn": "arn:aws:iam::348032170732:role/ecsTaskExecutionRole",
   "containerDefinitions": [
     {
       "name": "my-fargate-app",
-      "image": "YOUR_ACCOUNT_ID.dkr.ecr.eu-north-1.amazonaws.com/my-fargate-app:latest",
+      "image": "348032170732.dkr.ecr.eu-north-1.amazonaws.com/my-fargate-app:latest",
       "essential": true,
       "portMappings": [
         {
